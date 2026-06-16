@@ -1,0 +1,7 @@
+:root{--brand-blue:#0b3a63;--brand-yellow:#ffcc00;}
+.home-carousel{border-radius:18px;overflow:hidden;box-shadow:0 10px 35px rgba(11,58,99,.18);border:1px solid rgba(11,58,99,.12)}
+.home-carousel .carousel-item{height:360px;background:#0b3a63}
+.home-carousel .carousel-caption{background:rgba(0,0,0,.35);border-radius:14px}
+@media (max-width:991px){.home-carousel .carousel-item{height:300px}}
+@media (max-width:576px){.home-carousel .carousel-item{height:240px}}
+
