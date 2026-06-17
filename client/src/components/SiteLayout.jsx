@@ -5,6 +5,7 @@ import FloatingWhatsApp from './floating/FloatingWhatsApp.jsx';
 import ScrollToTop from './utils/ScrollToTop.jsx';
 import Footer from './Footer.jsx';
 import LoadingOverlay from './utils/LoadingOverlay.jsx';
+import '../styles/Navbar.css';
 
 
 export default function SiteLayout() {
@@ -13,8 +14,14 @@ export default function SiteLayout() {
       <LoadingOverlay />
       <Navbar bg="white" expand="lg" sticky="top" className="site-navbar border-bottom">
         <Container>
-          <Navbar.Brand as={Link} to="/" className="brand">
-            <span className="brand-mark" />
+          <Navbar.Brand as={Link} to="/" className="brand ">
+            <img
+              src="/favicon.png"
+              alt="Sri Andal Cartons"
+              width="60"
+              height="40"
+              className="me-2"
+            />
             Sri Andal Cartons
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

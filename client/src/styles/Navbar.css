@@ -1,0 +1,10 @@
+@media (max-width: 320px) {
+  .site-navbar .navbar-brand img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .brand-text {
+    font-size: 0.8rem;
+  }
+}

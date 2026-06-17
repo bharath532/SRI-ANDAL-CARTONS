@@ -9,7 +9,7 @@ export default function FloatingWhatsApp() {
       className="floating-wa"
       aria-label="WhatsApp"
     >
-      <span className="floating-wa__icon">📱</span>
+      
     </a>
   );
 }

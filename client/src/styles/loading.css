@@ -1,2 +1,10 @@
-.loading-overlay{position:fixed; inset:0; background: rgba(11,58,99,.92); display:flex; flex-direction:column; justify-content:center; align-items:center; z-index:1000;}
-
+.loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(11, 58, 99, .92);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
