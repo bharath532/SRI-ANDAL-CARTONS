@@ -53,7 +53,8 @@ export default function GalleryPage() {
                                 <div className="rounded-4 overflow-hidden" style={{ border: '1px solid rgba(11,58,99,.12)' }}>
                                     <img
                                         className="img-cover"
-                                        src={`${API_BASE}/uploads/${img.fileName}`}
+                                        src={img.imageUrl}
+
                                         alt="Gallery"
                                         style={{ width: '100%', height: 180, objectFit: 'cover' }}
                                         loading="lazy"

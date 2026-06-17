@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Helmet } from 'react-helmet-async';
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:4000';
-
+console.log(import.meta.env.VITE_API_URL);
 export default function AdminDashboard() {
   const [token, setToken] = useState(localStorage.getItem('admin_jwt') || '');
   const [email, setEmail] = useState('');
@@ -85,6 +85,7 @@ export default function AdminDashboard() {
       setLoading(false);
     }
   }
+
 
   return (
     <>
