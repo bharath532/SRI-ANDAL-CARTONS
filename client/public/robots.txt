@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sriandacartons-client.vercel.app/sitemap.xml
+Sitemap: https://sriandalcartons-client.vercel.app/sitemap.xml
