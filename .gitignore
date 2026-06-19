@@ -9,4 +9,5 @@ client/.env
 .DS_Store
 .vscode
 dist
+client/dist
 
